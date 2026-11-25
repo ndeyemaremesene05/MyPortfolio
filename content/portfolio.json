@@ -1,0 +1,342 @@
+{
+  "_lisezmoi": "Source unique du contenu. Le frontend React l'utilise directement, et le backend Laravel l'importe dans MySQL (php artisan db:seed). Modifiez ce fichier puis relancez le build et/ou le seeder. Une valeur vide (\"\" ou null) masque l'élément correspondant sur le site.",
+
+  "profile": {
+    "name": "Ndeye Mareme Sene",
+    "initials": "NMS",
+    "title": "Développeuse full stack",
+    "focus": ["Web", "Mobile", "IA"],
+    "role": "Développeuse full stack web, mobile et IA",
+    "headline": "Je conçois des applications complètes, du schéma de données jusqu'à l'écran.",
+    "intro": "Laravel et React pour le web, Flutter pour le mobile, MySQL au centre, Python pour les fonctionnalités intelligentes. Diplômée d'un BST Technicien Full Stack, actuellement en Bachelor à l'OSBT Casablanca.",
+    "location": "Casablanca, Maroc",
+    "availability": "Ouverte aux stages et aux postes de développeuse junior.",
+    "about": [
+      "J'ai commencé par une licence Mathématiques, Physique et Informatique au Sénégal, puis je me suis spécialisée en développement à l'OSBT de Casablanca : un BST Technicien Full Stack, et aujourd'hui un Bachelor orienté web, mobile et intelligence artificielle.",
+      "Ce qui m'intéresse, c'est de partir d'un besoin réel et d'aller jusqu'à une application qui fonctionne. Avec Eventia, mon projet de fin d'études, je construis une plateforme événementielle complète : une API Laravel, une administration React, une application mobile Flutter et un service Python qui recommande des prestataires.",
+      "Je commence toujours par les données. Un schéma bien pensé (tables, relations, contraintes) rend le reste de l'application plus simple à écrire et plus fiable.",
+      "En parallèle de mes études, j'ai travaillé sur WordPress et WooCommerce pour un site e-commerce B2B, exploré Odoo en profondeur, et pratiqué la préparation de visuels et d'étiquettes produits. J'ai aussi une expérience de conseillère service client, qui m'a appris à écouter un besoin avant d'y répondre."
+    ],
+    "facts": [
+      { "label": "Formation en cours", "value": "Bachelor, OSBT Casablanca" },
+      { "label": "Diplôme", "value": "BST Technicien Full Stack" },
+      { "label": "Projet de fin d'études", "value": "Eventia, plateforme événementielle avec IA" },
+      { "label": "Langues", "value": "Français, wolof, anglais professionnel" }
+    ],
+    "cvUrl": "/cv/CV_Ndeye_Mareme_Sene.pdf",
+    "contact": {
+      "email": "ndeyemaremesene33@gmail.com",
+      "phone": "0706137802",
+      "showPhone": false,
+      "linkedin": "https://www.linkedin.com/in/ndeyemaremesene",
+      "github": "https://github.com/ndeyemaremesene05"
+    },
+    "siteUrl": "https://VOTRE-DOMAINE.example"
+  },
+
+  "levels": [
+    { "key": "projet", "label": "Utilisé en projet", "rank": 4, "hint": "Mis en œuvre dans un projet réel ou de fin d'études" },
+    { "key": "pratique", "label": "Pratique", "rank": 3, "hint": "Pratiqué régulièrement en cours et en exercices" },
+    { "key": "approfondissement", "label": "En approfondissement", "rank": 2, "hint": "Utilisé, et que je continue à approfondir" },
+    { "key": "connaissances", "label": "Connaissances", "rank": 1, "hint": "Étudié, bases acquises, pas encore de projet complet" }
+  ],
+
+  "skillCategories": [
+    {
+      "slug": "backend", "name": "Backend",
+      "summary": "API REST avec Laravel : routes, contrôleurs, modèles, validation et sécurité des accès.",
+      "skills": [
+        { "name": "PHP", "level": "projet" },
+        { "name": "Laravel", "level": "projet" },
+        { "name": "API REST", "level": "projet" },
+        { "name": "Architecture MVC", "level": "projet" },
+        { "name": "Authentification JWT", "level": "projet" },
+        { "name": "Rôles et permissions (middleware, policies)", "level": "projet" },
+        { "name": "Validation des données", "level": "projet" },
+        { "name": "Migrations, modèles et relations Eloquent", "level": "projet" },
+        { "name": "Gestion des erreurs et réponses JSON", "level": "pratique" },
+        { "name": "Laravel Sanctum", "level": "connaissances" }
+      ]
+    },
+    {
+      "slug": "frontend", "name": "Frontend",
+      "summary": "Interfaces React découpées en composants, connectées à une API, responsive.",
+      "skills": [
+        { "name": "React", "level": "projet" },
+        { "name": "JavaScript", "level": "projet" },
+        { "name": "Vite", "level": "projet" },
+        { "name": "Tailwind CSS", "level": "projet" },
+        { "name": "HTML5 et CSS3", "level": "projet" },
+        { "name": "Consommation d'API REST", "level": "projet" },
+        { "name": "Composants réutilisables et gestion d'état", "level": "projet" },
+        { "name": "Responsive design", "level": "projet" }
+      ]
+    },
+    {
+      "slug": "mobile", "name": "Mobile",
+      "summary": "Applications Android en Flutter reliées à une API Laravel, pour les clients et les prestataires d'Eventia.",
+      "skills": [
+        { "name": "Flutter", "level": "projet" },
+        { "name": "Dart", "level": "projet" },
+        { "name": "Applications Android", "level": "projet" },
+        { "name": "Connexion à une API backend", "level": "projet" },
+        { "name": "Navigation et organisation d'un projet Flutter", "level": "projet" },
+        { "name": "Authentification mobile", "level": "projet" },
+        { "name": "Firebase", "level": "connaissances" }
+      ]
+    },
+    {
+      "slug": "ia", "name": "Intelligence artificielle",
+      "summary": "Intégrer des fonctionnalités intelligentes dans une application : recommandations, service Python exposé en API.",
+      "skills": [
+        { "name": "Python", "level": "projet" },
+        { "name": "FastAPI", "level": "projet" },
+        { "name": "Logique de recommandation", "level": "projet" },
+        { "name": "Intégration d'un service IA dans une application", "level": "projet" },
+        { "name": "IA appliquée au développement", "level": "approfondissement" }
+      ]
+    },
+    {
+      "slug": "bdd", "name": "Bases de données",
+      "summary": "Concevoir le schéma avant d'écrire le code : entités, relations, contraintes, requêtes.",
+      "skills": [
+        { "name": "SQL", "level": "projet" },
+        { "name": "MySQL", "level": "projet" },
+        { "name": "Modélisation et conception relationnelle", "level": "projet" },
+        { "name": "Clés primaires, étrangères et contraintes", "level": "projet" },
+        { "name": "Jointures", "level": "projet" },
+        { "name": "Normalisation", "level": "pratique" },
+        { "name": "Requêtes complexes", "level": "pratique" },
+        { "name": "Migrations Laravel et Eloquent ORM", "level": "projet" },
+        { "name": "phpMyAdmin", "level": "projet" }
+      ]
+    },
+    {
+      "slug": "erp", "name": "ERP",
+      "summary": "Exploration approfondie d'Odoo : environnement ERP, modules et processus métier d'une entreprise.",
+      "skills": [
+        { "name": "Odoo", "level": "approfondissement" },
+        { "name": "Environnement ERP et gestion intégrée", "level": "approfondissement" },
+        { "name": "Processus métier", "level": "approfondissement" },
+        { "name": "Modules et fonctionnalités ERP", "level": "approfondissement" }
+      ]
+    },
+    {
+      "slug": "cms", "name": "CMS et e-commerce",
+      "summary": "Sites WordPress et boutiques WooCommerce : catalogue, pages, commandes, livraison, personnalisation.",
+      "skills": [
+        { "name": "WordPress", "level": "projet" },
+        { "name": "WooCommerce", "level": "projet" },
+        { "name": "Produits simples et variables", "level": "projet" },
+        { "name": "Catégories, pages et commandes", "level": "projet" },
+        { "name": "Plugins WordPress", "level": "projet" },
+        { "name": "Thème Flatsome et personnalisation", "level": "projet" },
+        { "name": "Configuration de la livraison", "level": "pratique" },
+        { "name": "Personnalisation en PHP", "level": "projet" }
+      ]
+    },
+    {
+      "slug": "seo", "name": "SEO",
+      "summary": "Rendre un site trouvable : contenu, structure des pages, images.",
+      "skills": [
+        { "name": "Référencement naturel", "level": "pratique" },
+        { "name": "Optimisation du contenu", "level": "pratique" },
+        { "name": "Optimisation des images", "level": "pratique" },
+        { "name": "Structure des pages et balises", "level": "pratique" }
+      ]
+    },
+    {
+      "slug": "devops", "name": "DevOps et déploiement",
+      "summary": "Versionner, conteneuriser et mettre en ligne. Une partie que je continue à approfondir.",
+      "skills": [
+        { "name": "Git et GitHub", "level": "projet" },
+        { "name": "VS Code et terminal", "level": "pratique" },
+        { "name": "Docker", "level": "pratique" },
+        { "name": "Jenkins et CI/CD", "level": "connaissances" },
+        { "name": "Déploiement d'applications", "level": "approfondissement" },
+        { "name": "Tests, débogage et maintenance", "level": "pratique" },
+        { "name": "Réseaux", "level": "connaissances" }
+      ]
+    },
+    {
+      "slug": "outils", "name": "Outils numériques et visuels",
+      "summary": "Le travail autour du code : images, visuels produits, étiquettes.",
+      "skills": [
+        { "name": "Retouche et redimensionnement d'images", "level": "pratique" },
+        { "name": "Préparation de visuels produits", "level": "pratique" },
+        { "name": "Conception d'étiquettes", "level": "pratique" },
+        { "name": "Paint et logiciels de mise en page", "level": "pratique" }
+      ]
+    },
+    {
+      "slug": "langages", "name": "Langages étudiés",
+      "summary": "Étudiés en formation, sans projet complet pour l'instant.",
+      "skills": [
+        { "name": "Java", "level": "connaissances" }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "slug": "eventia",
+      "name": "Eventia",
+      "subtitle": "Sunu EventAI",
+      "tagline": "Plateforme de planification et de réservation de prestataires événementiels au Sénégal, avec recommandations intelligentes.",
+      "type": "Projet de fin d'études, Bachelor",
+      "period": "2025, en cours",
+      "status": "en_cours",
+      "featured": true,
+      "visual": "eventia",
+      "context": "Au Sénégal, organiser un mariage, un baptême ou une conférence passe souvent par le bouche-à-oreille pour trouver traiteurs, décorateurs ou photographes. Il est difficile de comparer les offres et de rester dans son budget.",
+      "objective": "Réunir clients et prestataires sur une même plateforme : l'organisateur décrit son événement, reçoit des suggestions de prestataires adaptées à son budget et à sa ville, puis réserve ou demande un devis.",
+      "contribution": "Projet que je conçois et développe de bout en bout : modélisation de la base, API Laravel, administration React, application mobile Flutter et service de recommandation en Python.",
+      "stack": ["Laravel", "PHP", "React", "Vite", "Tailwind CSS", "Flutter", "Dart", "MySQL", "Python", "FastAPI", "API REST", "JWT"],
+      "architecture": [
+        { "name": "API Laravel", "role": "Règles métier, authentification et rôles (admin, prestataire, client), réservations, devis." },
+        { "name": "Administration React", "role": "Validation des prestataires, catégories, suivi des réservations." },
+        { "name": "Application Flutter", "role": "Deux espaces : client (créer un événement, réserver) et prestataire (vitrine, devis)." },
+        { "name": "Service Python / FastAPI", "role": "Calcule un score de pertinence des prestataires à partir de l'événement (budget, catégorie, localisation)." },
+        { "name": "MySQL", "role": "Utilisateurs, prestataires, événements, prestations, réservations, devis." }
+      ],
+      "features": [
+        { "name": "Inscription et connexion par rôle (client, prestataire, admin)", "status": "realise" },
+        { "name": "Vérification et validation des prestataires par l'administration", "status": "realise" },
+        { "name": "Catégories et sous-catégories de prestataires", "status": "realise" },
+        { "name": "Création d'événements : mariage, baptême, anniversaire, conférence, soirée", "status": "realise" },
+        { "name": "Budget, date, lieu et nombre d'invités par événement", "status": "realise" },
+        { "name": "Réservation de prestataires et suivi des réservations", "status": "realise" },
+        { "name": "Vitrine prestataire : prestations, prix, horaires, carte", "status": "realise" },
+        { "name": "Demande de devis avec quantités, réponse du prestataire", "status": "realise" },
+        { "name": "Tableaux de bord client, prestataire et admin", "status": "realise" },
+        { "name": "Plusieurs pays et devise locale (Sénégal, Maroc)", "status": "realise" },
+        { "name": "Recommandations de prestataires (service Python)", "status": "en_cours" },
+        { "name": "Avis clients sur les prestataires", "status": "en_cours" },
+        { "name": "Retour de l'utilisateur sur les recommandations", "status": "prevu" },
+        { "name": "Notifications push (Firebase)", "status": "prevu" }
+      ],
+      "challenges": [
+        { "title": "Sécuriser trois espaces dans une seule API", "text": "Chaque groupe de routes est protégé par un contrôle de rôle, et une policy vérifie qu'un prestataire ne peut agir que sur ses propres réservations." },
+        { "title": "Gérer plusieurs pays sans service payant", "text": "Chaque prestataire facture dans la monnaie de son pays, et un événement ne propose que des prestataires de la même devise. Pas de conversion, donc pas d'API externe à payer." },
+        { "title": "Relier trois applications à une même base", "text": "L'API Laravel est la seule à écrire dans MySQL. React, Flutter et le service Python passent tous par elle, ce qui garde les règles métier au même endroit." }
+      ],
+      "links": { "demo": "", "github": "https://github.com/ndeyemaremesene05/Sunu_EventAI" },
+      "cover": ""
+    },
+    {
+      "slug": "aromapedia",
+      "name": "AromaPedia Lab",
+      "subtitle": "",
+      "tagline": "Site e-commerce B2B de matières premières cosmétiques et pharmaceutiques, destiné aux laboratoires et aux professionnels.",
+      "type": "Site e-commerce professionnel",
+      "period": "En cours",
+      "status": "en_cours",
+      "featured": false,
+      "visual": "aromapedia",
+      "context": "Un grossiste en matières premières cosmétiques et pharmaceutiques a besoin d'un catalogue en ligne clair pour des acheteurs professionnels, qui cherchent avant tout des informations techniques fiables.",
+      "objective": "Présenter un catalogue technique complet (fiches produits, informations INCI, documentation) et permettre la commande en ligne.",
+      "contribution": "Construction et personnalisation du site WordPress / WooCommerce : pages, organisation du catalogue, fiches produits, champs techniques, personnalisation en PHP, optimisation SEO et préparation des images.",
+      "stack": ["WordPress", "WooCommerce", "PHP", "HTML", "CSS", "JavaScript", "Flatsome", "SEO"],
+      "architecture": [],
+      "features": [
+        { "name": "Création et personnalisation des pages", "status": "realise" },
+        { "name": "Organisation des catégories du catalogue", "status": "realise" },
+        { "name": "Produits simples et produits variables", "status": "realise" },
+        { "name": "Champs techniques spécifiques (informations INCI)", "status": "realise" },
+        { "name": "Documentation produit", "status": "en_cours" },
+        { "name": "Personnalisation de l'interface (thème Flatsome)", "status": "realise" },
+        { "name": "Optimisation SEO et des images", "status": "en_cours" }
+      ],
+      "challenges": [
+        { "title": "Des fiches produits techniques", "text": "Un acheteur de laboratoire cherche la dénomination INCI et la documentation avant le prix : la fiche produit a été pensée dans cet ordre." }
+      ],
+      "links": { "demo": "https://aromapedialab.com", "github": "" },
+      "cover": ""
+    },
+    {
+      "slug": "app-web-mobile",
+      "name": "Application web et mobile",
+      "subtitle": "Projet de 2e année",
+      "tagline": "Un site web Laravel et une application mobile Flutter partageant les mêmes données dynamiques.",
+      "type": "Projet académique, BST",
+      "period": "2023 – 2024",
+      "status": "realise",
+      "featured": false,
+      "visual": "webmobile",
+      "context": "Projet de deuxième année du BST Technicien Full Stack.",
+      "objective": "Construire une application web et une application mobile reliées à une même base de données.",
+      "contribution": "Développement du site Laravel, de l'application Flutter et de la base MySQL gérée avec phpMyAdmin.",
+      "stack": ["Laravel", "PHP", "Flutter", "Dart", "MySQL", "phpMyAdmin"],
+      "architecture": [],
+      "features": [
+        { "name": "Site web Laravel", "status": "realise" },
+        { "name": "Application mobile Flutter", "status": "realise" },
+        { "name": "Gestion de données dynamiques en base MySQL", "status": "realise" }
+      ],
+      "challenges": [],
+      "links": { "demo": "", "github": "" },
+      "cover": ""
+    },
+    {
+      "slug": "site-web-1re-annee",
+      "name": "Site web statique et dynamique",
+      "subtitle": "Projet de 1re année",
+      "tagline": "Premier site web, en HTML, CSS et JavaScript, puis avec une intégration WordPress.",
+      "type": "Projet académique",
+      "period": "2022 – 2023",
+      "status": "realise",
+      "featured": false,
+      "visual": "website",
+      "context": "Projet de première année.",
+      "objective": "Réaliser un site statique, puis le rendre dynamique avec WordPress.",
+      "contribution": "Intégration HTML et CSS, interactions JavaScript, intégration WordPress.",
+      "stack": ["HTML", "CSS", "JavaScript", "WordPress"],
+      "architecture": [],
+      "features": [
+        { "name": "Pages statiques en HTML et CSS", "status": "realise" },
+        { "name": "Interactions en JavaScript", "status": "realise" },
+        { "name": "Version dynamique avec WordPress", "status": "realise" }
+      ],
+      "challenges": [],
+      "links": { "demo": "", "github": "" },
+      "cover": ""
+    }
+  ],
+
+  "erp": {
+    "title": "Odoo et systèmes d'information",
+    "text": "J'ai consacré beaucoup de temps à l'apprentissage d'Odoo, en manipulant directement le système. Cela m'a appris comment une entreprise relie ses différents services dans un même outil, et pourquoi la qualité des données de base compte autant.",
+    "points": [
+      "Comprendre l'environnement d'un ERP et la gestion intégrée d'une entreprise",
+      "Suivre un processus métier d'un module à l'autre",
+      "Installer, configurer et manipuler des modules",
+      "Faire le lien avec la conception de bases de données et le développement"
+    ],
+    "modules": [],
+    "note": "Apprentissage et pratique personnelle, pas de projet client."
+  },
+
+  "versatility": [
+    { "step": "Comprendre le besoin", "items": ["Écoute du client", "Processus métier", "ERP"] },
+    { "step": "Modéliser les données", "items": ["Schéma relationnel", "SQL", "MySQL"] },
+    { "step": "Développer", "items": ["API Laravel", "React", "Flutter", "Python"] },
+    { "step": "Préparer le contenu", "items": ["Images", "Visuels produits", "Étiquettes", "Fiches produits"] },
+    { "step": "Vendre en ligne", "items": ["WordPress", "WooCommerce", "Livraison"] },
+    { "step": "Mettre en ligne", "items": ["Git", "Docker", "Déploiement", "SEO"] }
+  ],
+
+  "timeline": [
+    { "kind": "formation", "period": "2025 – aujourd'hui", "title": "Bachelor en développement informatique", "place": "OSBT, Casablanca", "detail": "Web, mobile et intelligence artificielle. Projet de fin d'études : Eventia." },
+    { "kind": "projet", "period": "2025 – aujourd'hui", "title": "Eventia, projet de fin d'études", "place": "", "detail": "Laravel, React, Flutter, Python, MySQL.", "projectSlug": "eventia" },
+    { "kind": "formation", "period": "2023 – 2025", "title": "BST Technicien Full Stack", "place": "OSBT, Casablanca", "detail": "Diplômée." },
+    { "kind": "projet", "period": "2023 – 2024", "title": "Application web et mobile", "place": "", "detail": "Laravel, Flutter, phpMyAdmin.", "projectSlug": "app-web-mobile" },
+    { "kind": "formation", "period": "2022 – 2023", "title": "Licence MPI, spécialité informatique", "place": "Faculté des Sciences, Sénégal", "detail": "Mathématiques, physique, informatique." },
+    { "kind": "projet", "period": "2022 – 2023", "title": "Site web statique et dynamique", "place": "", "detail": "HTML, CSS, JavaScript, WordPress.", "projectSlug": "site-web-1re-annee" },
+    { "kind": "formation", "period": "Juillet 2022", "title": "Baccalauréat scientifique", "place": "Sénégal", "detail": "" }
+  ],
+  "timelineExtra": [
+    { "kind": "experience", "period": "", "title": "Conseillère service client", "place": "Centre d'appels, secteur de l'énergie", "detail": "Accueil et traitement des appels de particuliers (contrats, facturation, consommation), gestion des réclamations, saisie et suivi des demandes dans un CRM." },
+    { "kind": "formation", "period": "", "title": "Formations complémentaires", "place": "En parallèle des études", "detail": "WordPress, WooCommerce, SEO, Odoo." },
+    { "kind": "projet", "period": "En cours", "title": "AromaPedia Lab", "place": "", "detail": "Site e-commerce B2B WordPress / WooCommerce.", "projectSlug": "aromapedia" }
+  ]
+}

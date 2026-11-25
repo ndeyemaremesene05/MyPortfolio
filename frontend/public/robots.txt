@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ndeye-mareme-sene.vercel.app/sitemap.xml

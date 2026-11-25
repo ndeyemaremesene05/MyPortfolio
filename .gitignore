@@ -1,0 +1,22 @@
+# Dépendances
+/frontend/node_modules/
+/backend/vendor/
+
+# Secrets et environnements locaux
+/backend/.env
+/backend/.env.backup
+/frontend/.env.local
+/frontend/.env.*.local
+
+# Builds et fichiers générés
+/frontend/dist/
+/backend/storage/*.key
+/backend/public/hot
+/backend/public/storage
+
+# Systèmes et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

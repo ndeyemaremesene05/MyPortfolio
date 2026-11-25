@@ -1,0 +1,5 @@
+Placez ici le CV en PDF, sous le nom exact :
+CV_Ndeye_Mareme_Sene.pdf
+
+(Pour un autre nom, modifiez "cvUrl" dans content/portfolio.json.)
+Ce fichier LISEZMOI.txt peut être supprimé.
