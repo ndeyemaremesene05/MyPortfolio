@@ -23,7 +23,7 @@ function Featured({ project }) {
         <div className="flex flex-wrap items-center gap-3">
           <StatusBadge status={project.status} />
           <span className="text-sm text-slate">
-            {project.type}, {project.period}
+            {[project.type, project.period].filter(Boolean).join(', ')}
           </span>
         </div>
         <h3 className="mt-5 text-4xl font-bold">
@@ -34,7 +34,7 @@ function Featured({ project }) {
         <p className="mt-4 text-[0.95rem] text-slate">
           {project.features.length} fonctionnalités suivies : {featureSummary(project.features)}.
         </p>
-        <StackList items={project.stack} className="mt-6" />
+        {project.stack.length > 0 && <StackList items={project.stack} className="mt-6" />}
         <div className="mt-auto flex flex-wrap gap-3 pt-8">
           <ButtonLink to={`/projets/${project.slug}`} aria-label={`Détails du projet ${project.name}`}>
             Voir le projet en détail
@@ -65,12 +65,12 @@ function Row({ project }) {
         <div className="flex flex-wrap items-center gap-3">
           <StatusBadge status={project.status} />
           <span className="text-sm text-slate">
-            {project.type}, {project.period}
+            {[project.type, project.period].filter(Boolean).join(', ')}
           </span>
         </div>
         <h3 className="mt-3 text-2xl font-bold">{project.name}</h3>
         <p className="mt-2 max-w-2xl text-ink/80">{project.tagline}</p>
-        <StackList items={project.stack} className="mt-4" />
+        {project.stack.length > 0 && <StackList items={project.stack} className="mt-4" />}
         <div className="mt-5 flex flex-wrap gap-2.5">
           <ButtonLink to={`/projets/${project.slug}`} variant="outline" className="py-2 text-sm" aria-label={`Détails du projet ${project.name}`}>
             Détails

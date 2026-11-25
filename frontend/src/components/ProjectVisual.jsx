@@ -112,6 +112,77 @@ function Aromapedia() {
   )
 }
 
+function Cosmetik() {
+  return (
+    <div className="relative flex h-full min-h-[240px] w-full items-center overflow-hidden bg-[#ece6e8] p-6">
+      <Browser className="w-full">
+        <div className="flex items-center justify-between gap-3 border-b border-line px-3 py-2">
+          <span className="whitespace-nowrap text-[11px] font-bold text-ink">Luxury Cosmetik</span>
+          <div className="flex gap-2 overflow-hidden whitespace-nowrap text-[8px] text-slate">
+            {['Visage', 'Corps', 'Parfums'].map((c) => (
+              <span key={c}>{c}</span>
+            ))}
+          </div>
+        </div>
+        <div className="space-y-2.5 p-3">
+          <div className="flex items-center gap-1.5 overflow-hidden whitespace-nowrap">
+            <span className="text-[9px] font-semibold text-ink">Soins ciblés</span>
+            {['Acné', 'Anti-âge'].map((c) => (
+              <span key={c} className="rounded-full border border-line px-1.5 text-[8px] text-slate">{c}</span>
+            ))}
+          </div>
+          <div className="grid grid-cols-3 gap-2">
+            {['from-[#f3e3e6] to-[#e6c9cf]', 'from-[#efe6da] to-[#dcc9b1]', 'from-[#e5ece9] to-[#c6d8d1]'].map((g, i) => (
+              <div key={i} className="rounded-md border border-line p-1.5">
+                <div className={`h-10 rounded bg-gradient-to-br ${g}`} />
+                <Bar w="85%" className="mt-1.5 bg-ink/12" />
+                <span className="mt-1.5 block rounded bg-ink py-0.5 text-center text-[8px] font-semibold text-white">Ajouter</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Browser>
+    </div>
+  )
+}
+
+function Devis() {
+  return (
+    <div className="relative flex h-full min-h-[240px] w-full items-center overflow-hidden bg-[#e3e7ec] p-6">
+      <Browser className="w-full">
+        <div className="flex items-center justify-between gap-3 border-b border-line px-3 py-2">
+          <span className="whitespace-nowrap text-[11px] font-bold text-ink">MApple Supply</span>
+          <span className="rounded-full bg-ink px-2 py-0.5 text-[8px] font-semibold text-white">Demander un devis</span>
+        </div>
+        <div className="grid grid-cols-[1.4fr_1fr] gap-3 p-3">
+          <div className="space-y-2">
+            <div className="flex items-center gap-1">
+              {[1, 2, 3, 4].map((n) => (
+                <span key={n} className={`grid size-4 place-items-center rounded-full text-[8px] font-bold ${n <= 2 ? 'bg-emerald text-white' : 'bg-ink/10 text-slate'}`}>{n}</span>
+              ))}
+            </div>
+            {['Produit', 'Capacité', 'Couleur'].map((k) => (
+              <div key={k}>
+                <span className="text-[8px] text-slate">{k}</span>
+                <div className="mt-0.5 h-4 rounded border border-line" />
+              </div>
+            ))}
+          </div>
+          <div className="space-y-1.5 rounded-md bg-paper p-2 text-[8px]">
+            <span className="block text-[9px] font-bold text-ink">Votre sélection</span>
+            <Bar w="90%" className="bg-ink/10" />
+            <Bar w="70%" className="bg-ink/10" />
+            <div className="flex gap-1 pt-1">
+              <span className="rounded bg-ink px-1 font-semibold text-white">MAD</span>
+              <span className="rounded border border-line px-1 text-slate">FCFA</span>
+            </div>
+          </div>
+        </div>
+      </Browser>
+    </div>
+  )
+}
+
 function WebMobile() {
   return (
     <div className="relative h-full min-h-[240px] w-full overflow-hidden bg-ink-2 p-6">
@@ -154,7 +225,7 @@ function Website() {
   )
 }
 
-const VISUALS = { eventia: Eventia, aromapedia: Aromapedia, webmobile: WebMobile, website: Website }
+const VISUALS = { eventia: Eventia, aromapedia: Aromapedia, cosmetik: Cosmetik, devis: Devis, webmobile: WebMobile, website: Website }
 
 export default function ProjectVisual({ project, className = '' }) {
   if (project.cover) {

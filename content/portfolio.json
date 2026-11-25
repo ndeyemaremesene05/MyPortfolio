@@ -254,6 +254,58 @@
       "cover": ""
     },
     {
+      "slug": "mapple-supply",
+      "name": "MApple Supply",
+      "subtitle": "",
+      "tagline": "Site d'un revendeur d'appareils et d'accessoires haut de gamme au Maroc et au Sénégal, avec demande de devis en ligne.",
+      "type": "Site web, projet en équipe",
+      "period": "",
+      "status": "realise",
+      "featured": false,
+      "visual": "devis",
+      "context": "MApple Supply est un revendeur indépendant de smartphones, ordinateurs, tablettes, montres connectées et accessoires, présent à Casablanca et à Dakar. Il vend aux particuliers comme aux professionnels, en dirhams au Maroc et en francs CFA au Sénégal.",
+      "objective": "Permettre aux clients de composer leur sélection et de demander un devis en ligne, dans la monnaie de leur pays, puis de retrouver leurs demandes dans leur compte.",
+      "contribution": "Projet réalisé en équipe avec le propriétaire de MApple Supply.",
+      "stack": [],
+      "architecture": [],
+      "features": [
+        { "name": "Catalogue de produits et page accessoires", "status": "realise" },
+        { "name": "Demande de devis en plusieurs étapes : produit, capacité, couleur, quantité, accessoires", "status": "realise" },
+        { "name": "Plusieurs articles dans une même demande", "status": "realise" },
+        { "name": "Choix particulier ou professionnel", "status": "realise" },
+        { "name": "Récapitulatif de la sélection avec total estimé en MAD ou en FCFA", "status": "realise" },
+        { "name": "Compte client avec historique des devis", "status": "realise" },
+        { "name": "Pages FAQ, Qui sommes-nous et Contact (WhatsApp)", "status": "realise" }
+      ],
+      "challenges": [],
+      "links": { "demo": "https://mapple-supply.vercel.app", "github": "" },
+      "cover": ""
+    },
+    {
+      "slug": "luxury-cosmetik",
+      "name": "Luxury Cosmetik",
+      "subtitle": "",
+      "tagline": "Boutique en ligne de produits de beauté : soins du visage et du corps, cheveux, parfums, maquillage et protection solaire.",
+      "type": "Site e-commerce, contribution",
+      "period": "",
+      "status": "realise",
+      "featured": false,
+      "visual": "cosmetik",
+      "context": "Luxury Cosmetik vend en ligne des cosmétiques de plusieurs marques, avec des prix en francs CFA. La boutique classe ses produits par univers (visage, corps, cheveux, parfums, maquillage, solaire) et propose une rubrique « Soins ciblés » organisée par besoin de peau : acné, hyperpigmentation, anti-âge.",
+      "objective": "Mettre en ligne le catalogue de la boutique pour que les clientes trouvent et commandent leurs produits directement sur le site.",
+      "contribution": "Intégration du catalogue : ajout des produits dans WooCommerce. Le site a été conçu par Gaye-Tech.",
+      "stack": ["WordPress", "WooCommerce"],
+      "architecture": [],
+      "features": [
+        { "name": "Ajout des produits dans le catalogue WooCommerce", "status": "realise" },
+        { "name": "Fiches produits : nom, description, prix et images", "status": "realise" },
+        { "name": "Classement des produits dans les catégories de la boutique", "status": "realise" }
+      ],
+      "challenges": [],
+      "links": { "demo": "https://luxurycosmetik.com", "github": "" },
+      "cover": ""
+    },
+    {
       "slug": "app-web-mobile",
       "name": "Application web et mobile",
       "subtitle": "Projet de 2e année",
@@ -337,6 +389,8 @@
   "timelineExtra": [
     { "kind": "experience", "period": "", "title": "Conseillère service client", "place": "Centre d'appels, secteur de l'énergie", "detail": "Accueil et traitement des appels de particuliers (contrats, facturation, consommation), gestion des réclamations, saisie et suivi des demandes dans un CRM." },
     { "kind": "formation", "period": "", "title": "Formations complémentaires", "place": "En parallèle des études", "detail": "WordPress, WooCommerce, SEO, Odoo." },
-    { "kind": "projet", "period": "En cours", "title": "AromaPedia Lab", "place": "", "detail": "Site e-commerce B2B WordPress / WooCommerce.", "projectSlug": "aromapedia" }
+    { "kind": "projet", "period": "En cours", "title": "AromaPedia Lab", "place": "", "detail": "Site e-commerce B2B WordPress / WooCommerce.", "projectSlug": "aromapedia" },
+    { "kind": "projet", "period": "", "title": "Luxury Cosmetik", "place": "", "detail": "Boutique de cosmétiques WordPress / WooCommerce : ajout des produits au catalogue.", "projectSlug": "luxury-cosmetik" },
+    { "kind": "projet", "period": "", "title": "MApple Supply", "place": "En équipe avec le propriétaire", "detail": "Site de revente d'appareils au Maroc et au Sénégal, avec demande de devis en ligne.", "projectSlug": "mapple-supply" }
   ]
 }

@@ -53,7 +53,7 @@ export default function ProjectPage() {
             <div className="flex flex-wrap items-center gap-3">
               <StatusBadge status={project.status} />
               <span className="text-sm text-slate">
-                {project.type}, {project.period}
+                {[project.type, project.period].filter(Boolean).join(', ')}
               </span>
             </div>
             <h1 className="mt-5 text-[clamp(2.4rem,6vw,4rem)] font-bold leading-[1.02] tracking-[-0.03em]">
@@ -148,9 +148,11 @@ export default function ProjectPage() {
             </Block>
           )}
 
-          <Block title="Technologies">
-            <StackList items={project.stack} />
-          </Block>
+          {project.stack?.length > 0 && (
+            <Block title="Technologies">
+              <StackList items={project.stack} />
+            </Block>
+          )}
         </div>
 
         {next && next.slug !== project.slug && (
